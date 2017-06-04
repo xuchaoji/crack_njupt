@@ -25,7 +25,7 @@
   </Options>
   <ProxyList>
     <Proxy id="100" type="SOCKS5">
-      <Address>10.160.86.167</Address>
+      <Address>x.x.x.x</Address>
       <Port>6666</Port>
       <Options>48</Options>
     </Proxy>
@@ -34,7 +34,7 @@
   <RuleList>
     <Rule enabled="true">
       <Name>Localhost</Name>
-      <Targets>localhost; 127.0.0.1; 10.160.86.167; %ComputerName%</Targets>
+      <Targets>localhost; 127.0.0.1; x.x.x.x; %ComputerName%</Targets>
       <Ports>6666</Ports>
       <Action type="Direct" />
     </Rule>
